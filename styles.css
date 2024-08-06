@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+header {
+    background-color: #005f99;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+header img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 120px; /* Ajusta el tamaño según sea necesario */
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #005f99;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.content {
+    padding: 20px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project {
+    flex: 1 1 calc(33% - 20px);
+    background-color: #e0e0d1;
+    padding: 10px;
+    border-radius: 8px;
+}
+.project img {
+    width: 35px;
+    height: 65px;
+    object-fit: cover;
+}
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.highlight {
+    font-size: 1.2em;
+    color: #005f99;
+    font-weight: bold;
+}
+#sobre-nosotros {
+    background: url('images/fondo.png') no-repeat center center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta la transparencia */
+}
